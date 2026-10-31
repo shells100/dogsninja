@@ -19,7 +19,7 @@ void configureDependencies() {
       ),
     );
     dio.interceptors.addAll([
-      ApiKeyInterceptor(const String.fromEnvironment('DOGS_API_KEY')),
+      ApiKeyInterceptor('Jp15ULyTqjdksLCbuDiHbOdArGxEYIMp6X2wQvqb'),
       PrettyDioLogger(
         enabled: kDebugMode,
         requestHeader: false,
